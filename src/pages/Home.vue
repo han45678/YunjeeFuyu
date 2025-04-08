@@ -1,10 +1,10 @@
 <script setup>
-import Banner from "@/section/Banner.vue"
-import Area from "@/section/Area.vue"
-import Brand from "@/section/Brand.vue"
-import Team from "@/section/Team.vue"
-import Appearance from "@/section/Appearance.vue"
-import BM from "@/section/Bm.vue"
+import s1 from "@/section/s1.vue"
+import s2 from "@/section/s2.vue"
+import s3 from "@/section/s3.vue"
+import s4 from "@/section/s4.vue"
+import s5 from "@/section/s5.vue"
+import s6 from "@/section/s6.vue"
 import Order from "@/section/order.vue"
 import Nav from "@/layout/navbar.vue"
 import { onMounted, ref } from "vue"
@@ -39,12 +39,12 @@ onMounted(() => {
   <Nav v-if="config.showNav" />
   <div class="home bg-white overflow-hidden font-['Noto_Sans_TC']">
     <h1 style="display:none;">樂居昀集</h1>
-    <Banner />
-    <Area />
-    <Brand />
-    <Team />
-    <Appearance />
-    <BM />
+    <s1 />
+    <s2 />
+    <s3 />
+    <s4 />
+    <s5 />
+    <s6 />
     <Order />
   </div>
 </template>
