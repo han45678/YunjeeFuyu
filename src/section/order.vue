@@ -178,6 +178,13 @@
       flex: 1;
       height: size-m(100);
 
+      .row {
+          
+          &::placeholder {
+          color: #AD9752;
+          }
+        }
+
       @media screen and (min-width:768px) {
         height: auto;
       }
@@ -185,6 +192,7 @@
       @media screen and (max-width:768px) {
         .row {
           height: 7em;
+          color: #AD9752;
         }
       }
     }

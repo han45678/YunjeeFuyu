@@ -109,17 +109,17 @@ const switch_splide = (data) => {
             <div class="work">
               <div class="pic">
                 <div class="pic_item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500" >
-                  <img src="@/section/s4/work/1/work01.webp" />
+                  <img src="@/section/s4/work/2/work01.webp" />
                     <span class="br font-['Noto_Sans_TC'] text-[#fff]">3D示意圖</span>
                     <span class="tl font-['Noto_Sans_TC'] text-[#000]">中山區　昀集柏寓</span>
                 </div>
                 <div class="pic_item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500" >
-                  <img src="@/section/s4/work/1/work02.webp" />
+                  <img src="@/section/s4/work/2/work02.webp" />
                     <span class="br font-['Noto_Sans_TC'] text-[#fff]">公設3D圖</span>
-                    <span class="tl font-['Noto_Sans_TC'] text-[#000]">中山區　昀集柏寓</span>
+                    <span class="tl font-['Noto_Sans_TC'] text-[#fff]">中山區　昀集柏寓</span>
                 </div>
                 <div class="pic_item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500" >
-                  <img src="@/section/s4/work/1/work03.webp" />
+                  <img src="@/section/s4/work/2/work03.webp" />
                     <span class="br font-['Noto_Sans_TC'] text-[#fff]">實景拍攝圖</span>
                     <span class="tl font-['Noto_Sans_TC'] text-[#000]">奎克咖啡　台中惠中店</span>
                 </div>
@@ -152,17 +152,17 @@ const switch_splide = (data) => {
             <div class="work">
               <div class="pic">
                 <div class="pic_item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500" >
-                  <img src="@/section/s4/work/1/work01.webp" />
+                  <img src="@/section/s4/work/3/work01.webp" />
                     <span class="br font-['Noto_Sans_TC'] text-[#fff]">實景拍攝圖</span>
                     <span class="tr font-['Noto_Sans_TC'] text-[#fff]">台北101</span>
                 </div>
                 <div class="pic_item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500" >
-                  <img src="@/section/s4/work/1/work02.webp" />
+                  <img src="@/section/s4/work/3/work02.webp" />
                     <span class="br font-['Noto_Sans_TC'] text-[#fff]">實景拍攝圖</span>
-                    <span class="tr font-['Noto_Sans_TC'] text-[#000]">上海外灘</span>
+                    <span class="tr font-['Noto_Sans_TC'] text-[#fff]">上海外灘</span>
                 </div>
                 <div class="pic_item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500" >
-                  <img src="@/section/s4/work/1/work03.webp" />
+                  <img src="@/section/s4/work/3/work03.webp" />
                     <span class="br font-['Noto_Sans_TC'] text-[#fff]">實景拍攝圖</span>
                     <span class="tr font-['Noto_Sans_TC'] text-[#fff]">曼谷瑰麗酒店</span>
                 </div>
@@ -194,17 +194,17 @@ const switch_splide = (data) => {
             <div class="work">
               <div class="pic">
                 <div class="pic_item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500" >
-                  <img src="@/section/s4/work/1/work01.webp" />
+                  <img src="@/section/s4/work/4/work01.webp" />
                     <span class="br font-['Noto_Sans_TC'] text-[#fff]">實景拍攝圖</span>
                     <span class="tr font-['Noto_Sans_TC'] text-[#000]">華固天鑄</span>
                 </div>
                 <div class="pic_item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500" >
-                  <img src="@/section/s4/work/1/work02.webp" />
+                  <img src="@/section/s4/work/4/work02.webp" />
                     <span class="br font-['Noto_Sans_TC'] text-[#fff]">實景拍攝圖</span>
-                    <span class="tr font-['Noto_Sans_TC'] text-[#000]">和平大苑</span>
+                    <span class="tr font-['Noto_Sans_TC'] text-[#fff]">和平大苑</span>
                 </div>
                 <div class="pic_item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500" >
-                  <img src="@/section/s4/work/1/work03.webp" />
+                  <img src="@/section/s4/work/4/work03.webp" />
                     <span class="br font-['Noto_Sans_TC'] text-[#fff]">實景拍攝圖</span>
                     <span class="tr font-['Noto_Sans_TC'] text-[#000]">元利ONE　PARK</span>
                 </div>

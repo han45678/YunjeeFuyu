@@ -130,6 +130,7 @@ const switch_splide = (data) => {
 
       .pic {
         width: 100%;
+        position: relative;
 
         img {
           width: 100%;
@@ -157,6 +158,7 @@ const switch_splide = (data) => {
 
       .text {
         padding: size-m(15) size-m(45) size-m(30) size-m(45);
+        background: linear-gradient(to right, #fff, #E6E0D1);
 
         @media screen and (min-width:768px) {
           position: absolute;

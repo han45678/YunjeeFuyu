@@ -43,7 +43,7 @@
 
   .product_title {
     width: size-m(305);
-    margin: 0 auto size(60) auto;
+    margin: 0 auto size-m(60) auto;
     @media screen and (min-width:768px) {
       width: size(580);
       margin: 0 auto size(70) auto;

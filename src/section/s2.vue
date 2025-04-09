@@ -15,7 +15,7 @@
       <div class="item">
         <div class="pic">
           <img src="@/section/s2/area_1.webp" alt="pic" data-aos="fade-in" data-aos-duration="1000">
-          <span class="font-['Noto_Sans_TC'] text-[#fff]">實景拍攝美化圖</span>
+          <span class="font-['Noto_Sans_TC'] text-[#fff]">情境示意圖</span>
         </div>
 
         <div class="text">
@@ -35,7 +35,7 @@
       <div class="item">
         <div class="pic">
           <img src="@/section/s2/area_2.webp" alt="pic" data-aos="fade-in" data-aos-duration="1000">
-          <span class="font-['Noto_Sans_TC'] text-[#fff]">實景拍攝美化圖</span>
+          <span class="font-['Noto_Sans_TC'] text-[#fff]">情境示意圖</span>
         </div>
         <div class="text">
           <div class="en_title">
@@ -189,6 +189,7 @@
         .en_title {
           img {
             height: size-m(10);
+            margin-bottom: size-m(10);
 
             @media screen and (min-width:768px) {
               height: auto;
