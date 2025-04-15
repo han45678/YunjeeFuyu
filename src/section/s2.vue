@@ -154,7 +154,7 @@
       .pic {
         position: relative;
         @media screen and (min-width:768px) {
-          width: 50%;
+          //width: 50%;
         }
         img{
           width: 100%;

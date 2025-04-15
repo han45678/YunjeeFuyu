@@ -105,7 +105,7 @@
 
       @media screen and (min-width:768px) {
         margin-top: 0;
-        width: 50.5%;
+        //width: 50.5%;
         gap: size(5);
       }
 

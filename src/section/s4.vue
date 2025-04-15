@@ -298,12 +298,12 @@ const switch_splide = (data) => {
       }
 
       .author {
-        width: 100%;
+        width: auto;
         display: flex;
         margin-bottom: size-m(25);
 
         @media screen and (min-width:768px) {
-          width: 30%;
+          width: auto;
           display: block;
           margin-bottom: 0;
         }
