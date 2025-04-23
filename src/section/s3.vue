@@ -35,15 +35,15 @@
             從台北市中心發跡的「樂居昀集」，致力以美學作為城市改造的起點，以「感官建築，靈魂空間」的品牌精神，將人們對建築的期待，從細緻感官體驗到身心靈的自在棲所為目標。樂居昀集指標個案—中山區精品宅「昀集柏寓」，在盛世繁華中山北路，打造世界旅人的酒店式寓所，促成北市100%完銷佳績，如今移師豪宅級精工團隊，進駐新北打造代表之作。
           </p>
 
-          <img class="bottom_pic block md:hidden" src="@/section/s3/bottom_pic_m.svg" data-aos="fade-up"
-            data-aos-duration="1000" data-aos-delay="500" />
-          <img class="bottom_pic hidden md:block" src="@/section/s3/bottom_pic.webp" data-aos="fade-up"
-            data-aos-duration="1000" data-aos-delay="500" />
 
-          <p class="font-['Noto_Sans_TC'] text-[#000] block md:hidden" data-aos="fade-up" data-aos-duration="1000">
+          <!--p class="font-['Noto_Sans_TC'] text-[#000] block md:hidden" data-aos="fade-up" data-aos-duration="1000">
             「昀集柏寓」以「悠然之境，靜謐莊園」為主題，榮獲2024倫敦設計大獎 London Design Awards 銀獎
-          </p>
+          </p-->
         </div>
+        <img class="bottom_pic block md:hidden" src="@/section/s3/bottom_pic_m.svg" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="500" />
+        <img class="bottom_pic hidden md:block" src="@/section/s3/bottom_pic.svg" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="500" />
       </div>
     </div>
   </section>
@@ -209,15 +209,19 @@
           }
         }
 
-        .bottom_pic {
-          margin: 0 auto size-m(10) auto;
-
-          @media screen and (min-width:768px) {
-            margin: 0 auto;
-          }
-        }
+        
       }
     }
+
+    .bottom_pic {
+          margin: size-m(50) auto;
+          width: size-m(200);
+
+          @media screen and (min-width:768px) {
+            margin: size(20) auto;
+            width: 80%;
+          }
+        }
   }
 }
 </style>

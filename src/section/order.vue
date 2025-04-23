@@ -92,7 +92,7 @@
     position: relative;
     padding-top: size-m(56);
     overflow: hidden;
-    background-image: url(@/section/s1/bg.webp);
+    background-image: url(@/section/s1/bg_order.webp);
     background-size: cover;
     background-position: center center;
 
