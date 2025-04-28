@@ -153,6 +153,7 @@
 
       .pic {
         position: relative;
+        align-self:flex-start;
         @media screen and (min-width:768px) {
           //width: 50%;
         }
