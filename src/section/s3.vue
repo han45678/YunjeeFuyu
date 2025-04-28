@@ -102,6 +102,8 @@
       margin-top: size-m(-25);
       display: flex;
       gap: size-m(5);
+      align-self: flex-start;
+
 
       @media screen and (min-width:768px) {
         margin-top: 0;
