@@ -42,7 +42,7 @@ const switch_splide = (data) => {
         pagination: false,
         drag: true,
         perPage: 1,
-        rewind: true  // 👈 這行啟用循環
+        rewind: true
       }">
 
         <SplideSlide>
@@ -314,6 +314,15 @@ const switch_splide = (data) => {
           @media screen and (min-width:768px) {
             width: 100%;
             margin-bottom: size(50);
+            height: size(360);
+          }
+
+          img{
+            @media screen and (min-width:768px) {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
           }
         }
 
@@ -390,13 +399,17 @@ const switch_splide = (data) => {
           @media screen and (min-width:768px) {
             gap: size(5);
             margin-bottom: size(30);
+            height: size(360);
           }
 
           .pic_item {
             position: relative;
             img {
               width: 100%;
-              
+              @media screen and (min-width:768px) {
+                height: 100%;
+                object-fit: cover;
+              }
             }
 
             span {
