@@ -64,7 +64,7 @@
           <p class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000">
             桃園機場捷運A3站、環狀線Y20站，雙捷黃金交匯，進化城市動能。只要一站，抵達台北車站；同一線，抵達國門桃園機場；隨捷運三環六線到位，加上快速道路、國道系統，以及規劃中的溪北轉運站，未來雙北國際樞紐即在眼前。</p>
           <div class="bottom_text">
-            <img class="mr" src="@/section/s2/area_3_en_text.webp" alt="pic">
+            <img class="mr mr-svg" src="@/section/s2/area_3_en_text.svg" alt="pic">
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@
             毗鄰總面積424公頃的「新北大都會公園」，不僅是親子遊樂園，還有各項運動區域，揮灑汗水暢快呼吸，另有座落城市中的國家級濕地，成為昀集富昱的大自然入口。還有鄰近一帶豐沛的公園綠地
             ：興化公園、福聚公園、福慧新知公園、福慧都會公園，漫遊綠意生活每一天。</p>
           <div class="bottom_text">
-            <img class="ml" src="@/section/s2/area_4_en_text.webp" alt="pic">
+            <img class="ml mr-svg" src="@/section/s2/area_4_en_text.svg" alt="pic">
           </div>
         </div>
       </div>
@@ -246,10 +246,16 @@
               margin-right: 0;
               margin-left: auto;
             }
+            
 
             &.ml {
               margin-left: 0;
               margin-right: auto;
+            }
+          }
+          .mr-svg{
+            @media screen and (min-width:768px) {
+              width: size(480);
             }
           }
         }
