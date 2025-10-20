@@ -59,7 +59,7 @@ const switch_splide = (data) => {
                   data-aos-delay="500">雕塑城市記憶</h3>
                 <h4 class="font-['Noto_Sans_TC'] text-[#675539]" data-aos="fade-up" data-aos-duration="1000"
                   data-aos-delay="500">
-                  建築規劃 楊振植建築師<br>楊振植建築師事務所
+                  建築規劃 王成維建築師<br>王成維建築師事務所
                 </h4>
               </div>
             </div>
@@ -68,24 +68,24 @@ const switch_splide = (data) => {
                 <div class="pic_item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500" >
                   <img src="@/section/s4/work/1/work01.jpg" />
                     <span class="br font-['Noto_Sans_TC'] text-[#fff]">3D示意圖</span>
-                    <span class="tr font-['Noto_Sans_TC'] text-[#000]">信義區　欣聯信義麗心</span>
+                    <span class="tr font-['Noto_Sans_TC'] text-[#fff]">大同區　寶國建築</span>
                 </div>
                 <div class="pic_item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500" >
                   <img src="@/section/s4/work/1/work02.jpg" />
                     <span class="br font-['Noto_Sans_TC'] text-[#fff]">3D示意圖</span>
-                    <span class="tr font-['Noto_Sans_TC'] text-[#fff]">內湖區　三豐AIT新莊區</span>
+                    <span class="tr font-['Noto_Sans_TC'] text-[#000]">新莊區　群曜維美</span>
                 </div>
                 <div class="pic_item" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500" >
                   <img src="@/section/s4/work/1/work03.jpg" />
                     <span class="br font-['Noto_Sans_TC'] text-[#fff]">3D示意圖</span>
-                    <span class="tr font-['Noto_Sans_TC'] text-[#000]">新莊區　亞昕企業總部大樓</span>
+                    <span class="tr font-['Noto_Sans_TC'] text-[#fff]">桃園市　大亮睦粼</span>
                 </div>
               </div>
               <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500">
-                由榮獲北台灣十大建築師的楊振植建築師帶領，從住宅、商辦、都市更新到老屋再生，皆以真誠為本，回應土地與人心，迄今完成的建築作品遍布全台，更獲得國家建築金質獎殊榮。秉持誠摯設計初心，以建築為語言，將空間轉化為宜居的詩意容器。
+                王成維建築師主張貼近土地紋理，打造契合當地生活節奏，以人為中心的建築哲學。深植於地域特性的理解，在簡約的設計語彙中，強化人與建築的連結空間，並與環境產生自然共鳴。作品遍布台北南港、信義、大同等精華區域，為城市打造集結生活記憶的美學量體。
                 <br>
                 <br>
-                業績作品：●信義區 欣聯信義麗心 ●士林區 寶和稙秀 ●內湖區 三豐AIT ●新莊區 亞昕企業總部大樓
+                業績作品：●南港區 東驛家和 ●大同區 寶國建築 ●新莊區 群曜維美 ●桃園市 大亮睦粼
               </p>
             </div>
           </div>
@@ -128,7 +128,7 @@ const switch_splide = (data) => {
                 沐易設計融匯西方美學養份，力行跨界的策略性結盟，作品屢獲國際獎項肯定，如英國百大城市獎、美國MUSE金獎等。以經得起時代考驗的品味美學為指標，專注人的細緻感受，累積不少為城市地景，留下記憶刻痕的獨特作品。
                 <br>
                 <br>
-                業績作品：●中山區 昀集柏寓 ●中山區 樂居微風旅店 ●台中七期 奎克咖啡旗艦店
+                業績作品：●中山區 昀集柏寓 ●中山區 樂居微風旅店●台中七期 奎克咖啡旗艦店
               </p>
             </div>
           </div>
@@ -170,7 +170,7 @@ const switch_splide = (data) => {
               <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500">
                 2005年在紐約成立，十聿照明橫跨紐約、台北、上海的國際化團隊，憑藉燈光科技的精準執行與創新的空間美學思唯，作品遍布亞洲各大城市指標個案，從商業建築、高階飯店到集合住宅，以燈光為建築打造獨特的夜間樣貌，更曾榮獲有燈光界奧斯卡之稱的「國際照明設計師協會」（IALD）的設計卓越獎。
                 <br>
-                業績作品：●台北101大樓燈光改造 ●高雄萬豪酒店 ●上海外灘歷史建築 ●曼谷瑰麗酒店 ●中山區 昀集柏寓
+                業績作品：●台北101大樓燈光改造●高雄萬豪酒店●上海外灘歷史建築●曼谷瑰麗酒店●中山區 昀集柏寓
               </p>
             </div>
           </div>
@@ -213,7 +213,7 @@ const switch_splide = (data) => {
                 DAISIN大信防水全面實施全方位標準工序，確保建設項目中的品質、安全與效率，並為技術人員提供統一指南，確保品質無虞；大信防水在台經營超越50年，並採用國際頂級材料接軌世界質量與性能要求，成立防水技術中心設置先進實驗室與設備，為建築防護的專業領頭羊。
                 <br>
                 <br>
-                業績作品：●士林區 華固天鑄 ●松山區 華固松疆 ●大安區 元利One Park ●中正區 和平大苑
+                業績作品：●士林區 華固天鑄●松山區 華固松疆●大安區 元利One Park●中正區 和平大苑
               </p>
             </div>
           </div>
@@ -287,7 +287,7 @@ const switch_splide = (data) => {
     }
 
     .item {
-      padding: 0 size-m(33);
+      padding: 0 size-m(40);
       margin-bottom: size-m(15);
 
       @media screen and (min-width:768px) {
@@ -473,7 +473,6 @@ const switch_splide = (data) => {
           font-size: size-m(13);
           line-height: size-m(26);
           letter-spacing: 0.03em;
-          text-align: justify;
 
           @media screen and (min-width:768px) {
             font-size: size(23);
