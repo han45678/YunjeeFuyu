@@ -24,7 +24,7 @@
           </div>
           <h3 class="font-['Noto_Serif_TC'] text-[#6E4D3B]" data-aos="fade-up" data-aos-duration="1000">下一個明星園區 <br class="block md:hidden">大型企業總部進駐</h3>
           <p class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000">
-            機捷A3生活圈，一站直達西區門戶，接軌700億雙子星計劃，伴隨「新北知識產業園區」磁吸效應，進駐多家大型企業總部，包含貝斯美德、科定企業、台通光電、夏姿、中悅、雙鴻等等，產業涵蓋電子資通訊、醫療器材等多方領域，匯集高競爭力產業群，帶動週邊住宅及商辦價值。
+            機捷A3生活圈，輕鬆直達西區門戶，接軌700億雙子星計劃，伴隨「新北知識產業園區」磁吸效應，進駐多家大型企業總部，包含貝斯美德、科定企業、台通光電、夏姿、中悅、雙鴻等等，產業涵蓋電子資通訊、醫療器材等多方領域，匯集高競爭力產業群，帶動週邊住宅及商辦價值。
           </p>
           <div class="bottom_text">
             <img class="mr" src="@/section/s2/area_1_en_text.webp" alt="pic" data-aos="fade-in"
@@ -60,9 +60,9 @@
           <div class="en_title">
             <img src="@/section/s2/area_3_en_title.webp" alt="pic" data-aos="fade-up" data-aos-duration="1000">
           </div>
-          <h3 class="font-['Noto_Serif_TC'] text-[#6E4D3B]" data-aos="fade-up" data-aos-duration="1000">A3雙捷交匯 <br class="block md:hidden">捷運一站到達北車</h3>
+          <h3 class="font-['Noto_Serif_TC'] text-[#6E4D3B]" data-aos="fade-up" data-aos-duration="1000">A3雙捷交匯 <br class="block md:hidden">捷運直達車 <br class="block md:hidden">一站到北車</h3>
           <p class="font-['Noto_Sans_TC'] text-[#000]" data-aos="fade-up" data-aos-duration="1000">
-            桃園機場捷運A3站、環狀線Y20站，雙捷黃金交匯，進化城市動能。只要一站，抵達台北車站；同一線，抵達國門桃園機場；隨捷運三環六線到位，加上快速道路、國道系統，以及規劃中的溪北轉運站，未來雙北國際樞紐即在眼前。</p>
+            桃園機場捷運A3站、環狀線Y20站，雙捷黃金交匯，進化城市動能。捷運直達車，只要一站抵達台北車站；同一線，抵達國門桃園機場；隨捷運三環六線到位，加上快速道路、國道系統，以及規劃中的溪北轉運站，未來雙北國際樞紐即在眼前。</p>
           <div class="bottom_text">
             <img class="mr mr-svg" src="@/section/s2/area_3_en_text.svg" alt="pic">
           </div>

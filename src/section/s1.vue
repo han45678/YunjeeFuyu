@@ -14,7 +14,7 @@
   width: 100%;
   height: size-m(667);
   background: #fff;
-  background-image: url(@/section/s1/bg.webp);
+  background-image: url(@/section/s1/bg.jpg);
   background-size: cover;
   background-position: center center;
   padding: size-m(80) 0 0 0;

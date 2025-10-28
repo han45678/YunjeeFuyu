@@ -8,9 +8,9 @@ export default {
     },
     address1: "基地位置",//按鈕區的--- 如空白會只呈現地址
     address2: "基地位置",//map點下確認的--- 如空白會顯示"導航地址"
-    address: "xxxxx",
-    googleSrc: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d903.7903120376435!2d121.5116826!3d25.0286013!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9a2c91d546f%3A0x491788dc1505af79!2zMTAw5Y-w5YyX5biC5Lit5q2j5Y2A5ZKM5bmz6KW_6Lev5LqM5q61NDjomZ8!5e0!3m2!1szh-TW!2stw!4v1718780535082!5m2!1szh-TW!2stw",
-    googleLink: "https://maps.app.goo.gl/VsYxR5FvXU8Pzipm8",
+    address: "新北市新莊區五工二路86巷36號",
+    googleSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1807.0103607505612!2d121.46058470000001!3d25.0672868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a90a5030c2b9%3A0xb2e8ecf320dff875!2z5piA6ZuG5a-M5pix!5e0!3m2!1szh-TW!2stw!4v1761561015547!5m2!1szh-TW!2stw",
+    googleLink: "https://maps.app.goo.gl/aLwtpRaXXXfGHYBR7",
     phone: "02-2914-5888",
     fbLink: "https://www.facebook.com/61573126301169/",
     fbMessage: "https://m.me/61573126301169/",

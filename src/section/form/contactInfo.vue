@@ -14,6 +14,17 @@
         <div>前往粉絲專頁</div>
       </div>
     </div>
+      
+    <div class="flex justify-between w-full contact-item-box no-gap" v-if="info.address">
+      <div class="flex contact-item justify-center items-center address">
+        <div><span v-if="info.address1">{{ info.address1 }}：</span><br v-if="isMobile" />{{ info.address }}</div>
+      </div>
+      <div class="flex contact-item justify-center items-center googlemap"
+        @click="modalOpen = true; modalType = 'gmap'">
+        <img src="//h35.banner.tw/img/form/gmap.svg" alt="導航 GoogleMap" srcset="" />
+        <div>導航 GoogleMap</div>
+      </div>
+    </div>
   </div>
 
   <!-- Mobile contact info -->
@@ -32,11 +43,11 @@
       <img src="//h35.banner.tw/img//form/messenger.svg" alt="messenger" srcset="" />
       <div>MESSAGE</div>
     </div>
-    <!--div class="flex flex-1 flex-col contact-item justify-center items-center text-[#6E4D3B]"
+    <div class="flex flex-1 flex-col contact-item justify-center items-center text-[#6E4D3B]"
       @click="modalOpen = true; modalType = 'gmap'">
       <img src="//h35.banner.tw/img//form/gmap.svg" alt="gmap" srcset="" />
       <div>LOCATION</div>
-    </div-->
+    </div>
   </div>
 
   <!-- Modal -->
@@ -81,7 +92,7 @@
 .contact-info {
   width: 900px;
   position: relative;
-  margin: 60px auto;
+  margin: 60px auto 0px auto;
 
   // .border {
   //   top: size(21);
@@ -105,6 +116,7 @@
   .contact-item-box {
     position: relative;
     gap: size(20);
+    margin-bottom: 1.5em;
 
     &.address-wrap {
       margin-top: size(20);
@@ -145,26 +157,36 @@
 
       &.address {
         background-color: #fff;
-        color: #000;
+        background-image: none;
+        color: #333;
         z-index: 0;
         position: relative;
-        max-width: 9999px;
-        justify-content: center;
-        border-color: #fff;
-        /*
-        border-top-left-radius: size(10);
-        border-bottom-left-radius: size(10);
-*/
+        flex:2.73;
+        // border-radius: 999px 0 0 999px;
+      //  max-width: 9999px;
+        justify-content: center;margin: 0 -2em 0 0;
+        border: 1px solid #AD9752;
+
         &::before {
           content: "";
           position: absolute;
           width: 8em;
           height: 100%;
-          background-color: #fff;
+          background-color: transparent;
           left: calc(100% - 4em);
           z-index: -1;
-          display: none;
         }
+        div{
+          text-indent:0em;
+          white-space: normal;
+          padding: 0 1em;
+        }
+      }
+
+
+      &.googlemap {
+        flex:1;
+      border-left-width: 0;
       }
     }
 
@@ -209,7 +231,7 @@
   .contact-info {
     width: size-m(375);
     height: auto;
-    padding: size-m(50) size-m(32);
+    padding: size-m(50) size-m(32) size-m(0) size-m(32);
     // margin-top: size-m(60);
     position: relative;
     justify-content: flex-start;
@@ -246,6 +268,7 @@
         font-size: size-m(16);
         max-width: 100%;
         justify-content: space-around;
+      border-radius: 0;
 
 
         img {
@@ -280,7 +303,12 @@
 
 <script setup>
 import info from "@/info"
-import { inject, ref } from "vue";
+import { computed, getCurrentInstance,inject, ref } from "vue";
+
+const globals = getCurrentInstance().appContext.config.globalProperties;
+
+const isMobile = computed(() => globals.$isMobile());
+
 const modalOpen = ref(false);
 const modalType = ref('');
 

@@ -70,6 +70,8 @@
       </div>
 
       <ContactInfo />
+    <!-- Map -->
+    <Map v-if="info.address" />
 
       <div class="order-bottom">
         <!-- <div class="order-bottom-bg"></div> -->
@@ -318,13 +320,15 @@
   .order-bottom {
     position: relative;
     width: 100%;
-    height: size-m(213);
+    height: size-m(263);
     display: flex;
     justify-content: center;
     align-items: center;
+      padding: size(80) 0 0;
 
     @media screen and (min-width:768px) {
-      height: size(328);
+      height: size(358);
+      padding: size(150) 0 0;
     }
 
     .order-bottom-bg {
@@ -366,6 +370,7 @@
 import Policy from "@/section/form/policy.vue"
 import ContactInfo from "@/section/form/contactInfo.vue"
 import HouseInfo from "@/section/form/houseInfo.vue"
+import Map from "@/section/form/map.vue"
 
 import info from "@/info"
 
