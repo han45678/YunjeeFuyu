@@ -1,4 +1,5 @@
 <script setup>
+import info from "@/info"
 import s1 from "@/section/s1.vue"
 import s2 from "@/section/s2.vue"
 import s3 from "@/section/s3.vue"
