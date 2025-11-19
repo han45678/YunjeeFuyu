@@ -1,15 +1,15 @@
 <template>
   <div class="contact-info mx-auto flex flex-col items-center justify-between">
     <div class="flex justify-between w-full contact-item-box">
-      <div class="flex contact-item justify-center items-center rounded-none" @click="modalOpen = true; modalType = 'phone'">
+      <div class="flex contact-item justify-center items-center rounded-none" @click="clickContactBtn('phone')">
         <img src="//h35.banner.tw/img//form/phone.svg" alt="phone" srcset="" />
         <div>{{ info.phone }}</div>
       </div>
-      <div class="flex contact-item justify-center items-center rounded-none" @click="modalOpen = true; modalType = 'fb'">
+      <div class="flex contact-item justify-center items-center rounded-none" @click="clickContactBtn('fb')">
         <img src="//h35.banner.tw/img//form/messenger.svg" alt="messenger" srcset="" />
         <div>FB 諮詢</div>
       </div>
-      <div class="flex contact-item justify-center items-center rounded-none btfanpage" @click="open()">
+      <div class="flex contact-item justify-center items-center rounded-none btfanpage" @click="clickContactBtn('bfLink')">
         <img src="//h35.banner.tw/img//form/fb.svg" alt="fb" srcset="" />
         <div>前往粉絲專頁</div>
       </div>
@@ -20,7 +20,7 @@
         <div><span v-if="info.address1">{{ info.address1 }}：</span><br v-if="isMobile" />{{ info.address }}</div>
       </div>
       <div class="flex contact-item justify-center items-center googlemap"
-        @click="modalOpen = true; modalType = 'gmap'">
+        @click="clickContactBtn('gmap')">
         <img src="//h35.banner.tw/img/form/gmap.svg" alt="導航 GoogleMap" srcset="" />
         <div>導航 GoogleMap</div>
       </div>
@@ -30,21 +30,22 @@
   <!-- Mobile contact info -->
   <div v-if="$isMobile()" class="bg-white mo-contact-info flex justify-between w-full contact-item-box items-center">
     <div class="flex flex-1 flex-col contact-item justify-center items-center text-[#6E4D3B]"
-      @click="modalOpen = true; modalType = 'phone'">
+      @click="clickContactBtn('phone')">
       <img src="//h35.banner.tw/img//form/phone.svg" alt="phone" srcset="" />
       <div>CONTACT US</div>
     </div>
-    <div class="flex flex-1 flex-col contact-item justify-center items-center text-[#6E4D3B]" @click="scrollTo('.order')">
+    <div class="flex flex-1 flex-col contact-item justify-center items-center text-[#6E4D3B]"
+      @click="clickContactBtn('order')">
       <img src="//h35.banner.tw/img//form/pen.svg" alt="pen" srcset="" />
       <div>RESERVATION</div>
     </div>
     <div class="flex flex-1 flex-col contact-item justify-center items-center text-[#6E4D3B]"
-      @click="modalOpen = true; modalType = 'fb'">
+      @click="clickContactBtn('fb')">
       <img src="//h35.banner.tw/img//form/messenger.svg" alt="messenger" srcset="" />
       <div>MESSAGE</div>
     </div>
     <div class="flex flex-1 flex-col contact-item justify-center items-center text-[#6E4D3B]"
-      @click="modalOpen = true; modalType = 'gmap'">
+      @click="clickContactBtn('gmap')">
       <img src="//h35.banner.tw/img//form/gmap.svg" alt="gmap" srcset="" />
       <div>LOCATION</div>
     </div>
@@ -304,6 +305,7 @@
 <script setup>
 import info from "@/info"
 import { computed, getCurrentInstance,inject, ref } from "vue";
+import { event, pageview } from 'vue-gtag';
 
 const globals = getCurrentInstance().appContext.config.globalProperties;
 
@@ -311,6 +313,24 @@ const isMobile = computed(() => globals.$isMobile());
 
 const modalOpen = ref(false);
 const modalType = ref('');
+
+const clickContactBtn = (type) => {
+  if (type === 'order') {
+    scrollTo('.order');
+    pageview('/#order');
+  } else if(type === 'bfLink') {
+    window.open(info.fbLink);
+  } else {
+    modalOpen.value = true;
+    modalType.value = type;
+  }
+
+  event('conversion', {
+    'send_to': 'AW-379975266/aMDfCM7Por8bEOLsl7UB'
+  });
+
+  taq('trackCustom', '3MBlBuljhVxy', 'Customer00001');
+}
 
 const go = () => {
   if (modalType.value == 'phone') {
@@ -322,14 +342,8 @@ const go = () => {
     window.open(info.fbMessage);
   } else if (modalType.value == 'gmap') {
     window.open(info.googleLink);
-
   }
 }
-
-const open = () => {
-  window.open(info.fbLink);
-}
-
 
 const smoothScroll = inject('smoothScroll')
 const scrollTo = (el) => {

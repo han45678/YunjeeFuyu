@@ -30,6 +30,7 @@ const toastOptions = {
 
 
 import { createGtm } from '@gtm-support/vue-gtm';
+import { createGtag } from "vue-gtag";
 
 createApp(App)
     .use(Toast, toastOptions)
@@ -54,4 +55,9 @@ createApp(App)
           trackOnNextTick: false, // Whether or not call trackView in Vue.nextTick
         }),
       )
+    .use(
+      createGtag({
+        tagId: "AW-379975266"
+      })
+    )
     .mount("#app")

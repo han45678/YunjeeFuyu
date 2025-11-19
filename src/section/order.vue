@@ -377,6 +377,7 @@ import info from "@/info"
 import { cityList, renderAreaList } from "@/info/address.js"
 import { computed, getCurrentInstance, ref, reactive, watch, onMounted } from "vue"
 import { VueRecaptcha } from "vue-recaptcha"
+import { event } from 'vue-gtag';
 
 const globals = getCurrentInstance().appContext.config.globalProperties;
 const isMobile = computed(() => globals.$isMobile());
@@ -518,7 +519,14 @@ const send = () => {
       body: presend,
     }).then((response) => {
       if (response.status === 200) {
-        window.location.href = "formThanks";
+        event('conversion', {
+          'send_to': 'AW-379975266/6O4oCLm9nr8bEOLsl7UB',
+          'event_callback': function() {
+            window.location.href = "formThanks";
+          }
+        });
+
+        taq('trackCustom', '3MBlBuljhVxy', 'Customer00002');
       }
       sending.value = false
     });
